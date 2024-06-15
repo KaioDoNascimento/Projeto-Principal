@@ -1,0 +1,282 @@
+*{
+    color:#FFF;
+}
+
+:root{
+    --primary-color: #0A192F;
+    --secondary-color: #89ABE3;
+}
+
+html > body{
+    background-color: var(--primary-color);
+}
+
+#burguer{
+    display: none;
+}
+
+nav{
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+ul.nav.justify-content-end{
+    margin: 15px;
+}
+
+.nav-item .nav-link{
+    color: darkgray;
+}
+
+.nav-item .nav-link:hover{
+    color: var(--secondary-color);
+}
+
+.nav-item .nav-link span{
+    color: var(--secondary-color);
+}
+
+button.btn.btn-outline-primary{
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    margin-top: 3px;
+}
+
+button.btn.btn-outline-primary:hover{
+    background-color: var(--secondary-color);
+    color: #000;
+}
+
+button.btn.btn-outline-primary:focus{
+    box-shadow:none;
+}
+
+hr{
+    width: 50%;
+}
+
+#main-content #presentation .div-main h5{
+    margin: auto 0px 0px 15%;
+    color: var(--secondary-color);
+}
+
+#main-content #presentation .div-main h1{
+    margin: 15px 0px -15px 15%;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 50%;
+}
+
+#main-content #presentation .div-main h1.description{  
+    color: #f5f5f57f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 70%;
+}
+
+#main-content #about-me{
+    margin: 15% 0px 10% 15%;
+}
+
+#main-content #about-me h3{
+    color: whitesmoke;
+}
+
+#main-content #about-me h3 span{
+    color: var(--secondary-color);
+}
+
+#main-content #about-me .abstract p{
+    width: 60%;
+    color: #f5f5f57f;
+    font-size: 18px;
+}
+
+#main-content #about-me .abstract img{
+    float: right;
+    margin: 15px 20% 0px 15px;
+}
+
+#main-content #about-me .abstract .container .col-md-6{
+    width: 30%;
+}
+
+#main-content #about-me .abstract .col-md-6 .list-group .list-item{
+    margin-left: 10px;
+    list-style-type: square;
+    color: #f5f5f57f;
+}
+
+#main-content #about-me .abstract span{
+    color: var(--secondary-color);
+   
+}   
+
+#main-content #about-me .abstract .col-md-6 .list-group .list-item::marker {    
+    color: var(--secondary-color);
+}
+
+#main-content #experience{
+   margin-left: 20%; 
+   margin-bottom: 7%;
+}
+
+#main-content #experience h3 span{
+    color: var(--secondary-color);
+}
+
+#main-content #experience .abstract span.job-title{
+    font-size: 22px;
+}
+
+#main-content #experience .abstract span.job-title a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+#main-content #experience .abstract span.job-title a:hover{
+   text-decoration: underline;
+}
+
+#main-content #experience .abstract p{
+    color: #f5f5f57f;
+}
+
+#main-content #experience .abstract .col-md-6 .list-group .list-item{
+    margin: 5px 0px 10px 10px;
+    list-style-type: square;
+    color: #f5f5f57f;
+}
+
+#main-content #experience .abstract .col-md-6 .list-group .list-item::marker {    
+    color: var(--secondary-color);
+}
+
+#main-content #my-projects{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+#main-content #my-projects .container .row.justify-content-between .col-md-3 a{
+    text-decoration: none;
+}
+
+#main-content #my-projects .container .row.justify-content-between .col-md-3  :hover{
+    transform: scale(1.02);
+}
+
+#main-content #my-projects .container .row.justify-content-between .col-md-3 .card.custom-card{
+    background-color: #89ace317;
+    border-radius: 10px;
+}
+
+#main-content #my-projects .container .row.justify-content-between .col-md-3 .card.custom-card .card-body i{
+    color: rgb(225, 255, 0);
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+#main-content #my-projects h3 span{
+    color: var(--secondary-color);
+}
+
+#main-content #my-projects p{
+    color: #f5f5f5ad;
+}
+
+#main-content #my-projects small{
+    color: #f5f5f5ad;
+}
+
+#main-content #contact {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content #contact .abstract h3 span{
+    color: var(--secondary-color);
+}
+
+#main-content #contact .abstract p{
+    font-size: 20px;
+    color: #f5f5f5ad;
+}
+
+#contact .abstract #network-button{
+    background-color: #0000007b;
+    border-radius: 25px;
+    border: none;
+    box-shadow: none;
+    font-size: 1.5rem;
+    margin-left: 40%;
+}
+
+#contact .abstract #network-button:hover{
+    background-color: #2F4F4F;
+}
+
+#dropdown-network{
+    background-color: #000;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#dropdown-network .dropdown-item:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+footer{
+    margin: 150px 0 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:#f5f5f57f;
+}
+
+footer a:hover{
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width: 770px){
+
+    #burguer{
+        background-color: var(--primary-color);
+        color: white;
+        display: block;
+        text-align: center;
+        
+    }
+
+    #burguer:hover{
+        background-color: var(--secondary-color);
+        color: black;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section#presentation{
+        margin-top: 35%;
+    }
+
+
+    section#experience{
+        margin-right: 20%;
+    }
+
+    section#my-projects .col-md-3{
+        padding: 5% 0;
+    }
+
+    footer{
+        text-align: center;
+        margin: 10%;
+    }
+
+}

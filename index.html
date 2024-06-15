@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaio Alexandre</title>
+    <link rel="stylesheet" href="css/breakpoints.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <i id="burguer" class="fa-solid fa-bars" onclick="burguerMenu()"></i>
+    <nav id="menu">
+      <ul class="nav justify-content-end " >
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#about-me"><span>00.</span> Sobre mim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience"><span>01.</span> Experiência</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#my-projects"><span>02.</span> Meus Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact"><span>03.</span> Contato</a>
+        </li>
+        <li class="nav-item">
+          <a href="curriculo.pdf" target="_blank"><button type="button" class="btn btn-outline-primary" >Meu currículo</button></a>
+        </li>
+      </ul>
+    </nav> 
+    <main id="main-content">
+      <section id="presentation">
+        <div class="div-main">
+          <h5>Olá, meu nome é </h5>
+          <h1>Kaio Alexandre do Nascimento.</h1>
+          <h1 class="description">Sou um entusiasta de tecnologia, dedicado a explorar novas ferramentas e aprimorar minhas habilidades constantemente. Minha jornada no mundo da tecnologia é marcada pela curiosidade e pelo desejo incessante de aprender e inovar.</h1>
+        </div>
+      </section>
+      
+      <section id="about-me">    
+        <div class="abstract">  
+          <h3><span>00.</span> Sobre mim</h3> <hr>
+          <img src="img/minha-foto.jpg"> 
+          <p>Seja Bem-vindo! Meu nome é Kaio e sou um iniciante na área de tecnologia. Meu interesse por programação surgiu durante a pandemia quando iniciei minha faculdade em Ciência da Computação.</p>          
+          <p>Atualmente auxilio no desenvolvimento do sistema próprio da empresa onde trabalho utilizando <span>HTML & CSS</span>, <span>ASP</span> e <span>Banco de Dados</span>. Além disso, também presto <span>Suporte TI</span> para os funcionários da empresa.</p>
+          <p>Nos dias de hoje meu maior interesse é em aprender novas tecnologias, não só na área de programação como também em <span>Segurança da Informação</span>.</p>
+          <p>Outras tecnologias que também já utilizei:</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-group">
+                  <li class="list-item">Bootstrap</li>
+                  <li class="list-item">Java</li>
+                  <li class="list-item">Javascript</li>
+                        
+                </ul>
+              </div>
+              <div class="col-md-6 second">
+                <ul class="list-group">
+                  <li class="list-item">React</li>
+                  <li class="list-item">PHP</li>
+                  <li class="list-item">SQL Server</li>      
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </section>
+      <section id="experience">    
+        <div class="abstract">  
+          <h3><span>01.</span> Experiência</h3> <hr>
+          <span class="job-title">Estagiário TI | <a href="https://www.ammarhes.com.br" target="_blank"> Ammarhes Consultoria</a></span>
+          <p class="period">Setembro 2023 - Atual</p>
+          <div class="col-md-6">
+            <ul class="list-group">
+              <li class="list-item">Prestar Suporte TI a funcionários, não só de forma presencial mas também remotamente.</li>
+              <li class="list-item">Elaboração de relatórios no sistema da empresa utilizando ASP e Banco de Dados.</li>             
+              <li class="list-item">Gestão do sistema interno da empresa - criação e gestão de usuários,
+                concessão de acessos e ativação/desativação de contas.</li>
+              <li class="list-item">Responsável pelo gerenciamento abrangente dos periféricos e equipamentos de hardware em cinco locais distintos da empresa.</li>
+            </ul>
+          </div>
+        </div>        
+      </section>
+      <section id="my-projects">
+        <div class="container">
+          <h3><span>02.</span> Meus Projetos</h3><hr>
+          <div class="row justify-content-between">
+            <div class="col-md-3">
+              <a href="https://kaiodonascimento.github.io/ExactTime/" target="_blank">
+                <div class="card custom-card">
+                  <div class="card-body">
+                    <i class="fa-regular fa-folder"></i>
+                    <h5 class="card-title">ExactTime</h5>
+                    <p class="card-text">Projeto de site para uma loja de relógios que visa oferecer uma experiência elegante e sofisticada aos clientes em sua busca pelo acessório perfeito para marcar o tempo.</p>
+                    <small>HTML &nbsp; CSS &nbsp; Bootstrap</small>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://kaiodonascimento.github.io/GerenciadorDeTarefas/" target="_blank">
+                <div class="card custom-card">
+                  <div class="card-body">
+                    <i class="fa-regular fa-folder"></i>
+                    <h5 class="card-title">Gerenciador de Tarefas</h5>
+                    <p class="card-text"> Esse projeto permite o gerenciamento de tarefas com facilidade. Criar, acompanhar e atualizar tarefas de forma rápida e simples, desde do início até a conclusão.</p>
+                    <small>HTML &nbsp; CSS &nbsp; React.js</small>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://kaiodonascimento.github.io/TelaDeCadastro/" target="_blank">
+                <div class="card custom-card">
+                  <div class="card-body">
+                    <i class="fa-regular fa-folder"></i>
+                    <h5 class="card-title">Tela de Cadastro</h5>
+                    <p class="card-text">Tela de cadastro foi projetada para garantir que os usuários possam criar suas contas rapidamente, fornecendo as informações necessárias de maneira simples</p>
+                    <small>HTML &nbsp; CSS &nbsp; Javascript</small>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">    
+        <div class="abstract">  
+          <h3><span>03.</span> Contatos</h3> <hr>
+            <p>
+              Para entrar em contato comigo, você pode me enviar um e-mail ou acessar minhas redes sociais através do botão abaixo. Estou disponível para responder suas dúvidas, fornecer ajuda ou simplesmente trocar ideias sobre uma variedade de tópicos. Sinta-se à vontade para me contatar da maneira que for mais conveniente para você &#128521;.</p>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" id="network-button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-message"></i>
+                </button>
+                <ul class="dropdown-menu" id="dropdown-network">
+                  <li><a class="dropdown-item" href="mailto:kaiodonascimento4587@gmail.com" target="_blank"> <i class="fa-solid fa-envelope"></i> </a></li>
+                  <li><a class="dropdown-item" href="https://github.com/KaioDoNascimento" target="_blank"> <i class="fa-brands fa-github-alt"></i> </a></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/kaio-alexandre-94a7b5244/" target="_blank"> <i class="fa-brands fa-linkedin-in" ></i> </a></li>
+                </ul>
+              </div>
+        </div>        
+      </section>
+    </main>
+
+    <footer>
+      <a href="https://github.com/KaioDoNascimento" target="_blank">Projetado e construído por Kaio Alexandre do Nascimento</a>
+    </footer>
+</body>
+</html>
